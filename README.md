@@ -90,10 +90,9 @@ DESKRIPSI
 flowchart TD
     A([MULAI]) --> B[/Input sisi alas a/]
     B --> C[/Input sisi tinggi b/]
-    C --> D[Hitung c = akar dari a^2 + b^2]
+    C --> D["Hitung c = $$\sqrt{a^2 + b^2}$$"]
     D --> E[/Output sisi miring c/]
     E --> F([SELESAI])
-```
 
 ## Test Case
 
