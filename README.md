@@ -28,3 +28,28 @@ Jika sisi alas memiliki panjang **3 cm** dan sisi tinggi **4 cm**, maka:
 **c = 5 cm**
 
 Dengan demikian, panjang sisi miring segitiga tersebut adalah **5 cm**.
+
+## Identifikasi Input – Proses – Output
+
+| Komponen   | Keterangan                                                                                   |
+| ---------- | -------------------------------------------------------------------------------------------- |
+| **Input**  | Panjang sisi alas (`a`) dan panjang sisi tinggi (`b`) segitiga siku-siku.                    |
+| **Proses** | Menghitung panjang sisi miring (`c`) menggunakan rumus Teorema Pythagoras: `c = √(a² + b²)`. |
+| **Output** | Menampilkan panjang sisi miring (`c`) dalam satuan sentimeter (cm).                          |
+
+### Alur IPO
+
+**Input:**
+Pengguna memasukkan nilai panjang sisi alas (`a`) dan sisi tinggi (`b`).
+
+⬇️
+
+**Proses:**
+Program menghitung sisi miring menggunakan rumus:
+
+`c = √(a² + b²)`
+
+⬇️
+
+**Output:**
+Program menampilkan hasil panjang sisi miring (`c`) dalam satuan cm.
