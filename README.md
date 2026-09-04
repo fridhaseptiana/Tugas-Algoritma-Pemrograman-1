@@ -86,14 +86,12 @@ DESKRIPSI
 
 ## Flowchart
 
-```mermaid
 flowchart TD
     A([MULAI]) --> B[/Input sisi alas a/]
     B --> C[/Input sisi tinggi b/]
-    C --> D[Hitung c = sqrt a2 + b2]
+    C --> D[Hitung c = sqrt a^2 + b^2]
     D --> E[/Output sisi miring c/]
     E --> F([SELESAI])
-```
 
 ## Test Case
 
