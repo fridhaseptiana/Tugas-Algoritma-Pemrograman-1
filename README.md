@@ -86,11 +86,13 @@ DESKRIPSI
 
 ## Flowchart
 
+Flowchart berikut menunjukkan proses perhitungan panjang sisi miring segitiga siku-siku menggunakan Teorema Pythagoras.
+
 ```mermaid
 flowchart TD
     A([MULAI]) --> B[/Masukkan panjang sisi alas a/]
     B --> C[/Masukkan panjang sisi tinggi b/]
-    C --> D[c = √(a² + b²)]
+    C --> D[Hitung sisi miring c = √(a² + b²)]
     D --> E[/Tampilkan panjang sisi miring c/]
     E --> F([SELESAI])
 ```
